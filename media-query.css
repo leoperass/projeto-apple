@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+/* Todas as demais mídias */
+
+/* typical Device Breakpoints
+--------------------------------
+Pequenas telas: até 600px 
+Celular: 600px até 768px   
+Tablet: 768px até 992px
+Desktop: 992px até 1200px
+Grandes telas: acima de 1200px
+*/
+
+@media screen and (max-width: 768px) {
+    header {
+        padding: 20px 20px;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: row;
+        margin-left: 90px;
+        padding-top: 10px;
+    }
+
+    .list {
+        width: 100%;
+    }
+
+    .item {
+        flex-direction: column;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .product-img {
+        width: 100%;
+        height: auto;
+        top: 1%;
+        margin-bottom: 20px;
+    }
+
+    .content {
+        width: 100%;
+        margin-top: -40px;
+        padding: 0 20px;
+        align-items: center;
+    }
+
+    .product-name {
+        font-size: 2.5em;
+    }
+
+    .btn {
+        font-size: 0.9em;
+        padding: 5px 10px;
+    }
+
+    .arrows {
+        height: 190px;
+    }
+
+    .arrow-btn {
+        width: 35px;
+        height: 35px;
+    }
+
+    .indicators {
+        gap: 5px;
+        height: 4%;
+    }
+
+    .numbers {
+        font-size: 2em;
+    }
+
+    .dot {
+        width: 16px;
+        height: 3px;
+    }
+}
