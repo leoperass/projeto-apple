@@ -13,13 +13,14 @@ Grandes telas: acima de 1200px
 
 @media screen and (max-width: 768px) {
     header {
+        margin-left: -40px;
         padding: 20px 20px;
         text-align: center;
     }
 
     nav ul {
         flex-direction: row;
-        margin-left: 90px;
+        margin-left: 0px;
         padding-top: 10px;
     }
 
